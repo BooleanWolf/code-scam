@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
 .swipeButtons {
     position: fixed;
-    bottom: 10vh;
+    bottom: 1.5rem;
     display: flex;
     width: 100%;
     align-items: center;
