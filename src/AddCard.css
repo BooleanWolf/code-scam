@@ -1,0 +1,27 @@
+.container {
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    top: 0;
+    right: 2rem;
+    appearance: none;
+    border: none;
+    border-radius: 8px;
+    background: #4900e7;
+    padding: 16px 28px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #4900e7c6;
+}
+
+.button:focus {
+    outline: #4900e7 2px solid;
+    outline-offset: 2px;
+}
