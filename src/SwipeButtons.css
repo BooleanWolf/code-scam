@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+.swipeButtons {
+    position: fixed;
+    bottom: 10vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+
+.swipeButtons .MuiIconButton-root {
+    background-color: white;
+    box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.3) !important;
+}
+
+.swipeButtons__repeat {
+    padding: 1vw !important;
+    color: #f5b748 !important;
+}
+
+.swipeButtons__left {
+    padding: 1vw !important;
+    color: #ec5e6f !important;
+}
+.swipeButtons__star {
+    padding: 1vw !important;
+    color: #62b4f9 !important;
+}
+.swipeButtons__right {
+    padding: 1vw !important;
+    color: #76e2b3 !important;
+}
+.swipeButtons__lightning {
+    padding: 1vw !important;
+    color: #951dd1 !important;
+}
+
+.swip__tag {
+   font-family: 'Black And White Picture', sans-serif;
+   font-size: 30px;
+   margin: 10px;
+}
+
+.link {
+    font-family: 'Contrail One', cursive;
+    margin: 10px;
+    color: black;
+
+}
